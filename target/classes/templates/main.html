@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"></meta>
+<link rel="stylesheet" th:href="@{css/bootstrap.min.css}" />
+<link rel="stylesheet" th:href="@{css/bootstrap-theme.min.css}"/>
+<script type="text/javascript" th:src="@{js/jquery-1.11.0.min.js}"></script>
+<script type="text/javascript" th:src="@{js/bootstrap.min.js}"></script>
+<title>网站首页</title>
+</head>
+<body>
+<div class="panel panel-primary">
+	<!-- .panel-heading 面板头信息。 -->
+	<div class="panel-heading">
+		<!-- .panel-title 面板标题。 -->
+		<h3 class="panel-title">第一个Spring Boot Web开发示例</h3>
+	</div>
+</div>
+	<br />
+	<br />
+	<div class="container">
+		<div class="panel panel-primary">
+			<!-- .panel-heading 面板头信息。 -->
+			<div class="panel-heading">
+				<!-- .panel-title 面板标题。 -->
+				<h3 class="panel-title">图书信息列表</h3>
+			</div>
+			<div class="panel-body">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<a href=""> <img src="img/java.jpg" alt="图书封面"/>
+							</a>
+							<div class="captio">
+								<h4>Java讲义</h4>
+								<p>李刚</p>
+								<p>电子工业出版社</p>
+								<p>109.00</p>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-sm-6">
+							<a href=""> <img src="img/ee.jpg" alt="图书封面"/>
+							</a>
+							<div class="caption">
+								<h4>轻量级Java EE企业应用实战</h4>
+								<p>李刚 编著</p>
+								<p>电子工业出版社</p>
+								<p>108.00</p>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-sm-6">
+							<a href=""> <img src="img/SpringMyBatis.jpg" alt="图书封面"/>
+							</a>
+							<div class="caption">
+								<h4>Spring+MyBatis应用实战</h4>
+								<p>疯狂软件 编著</p>
+								<p>电子工业出版社</p>
+								<p>58.00</p>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-sm-6">
+							<a href=""> <img src="img/android.jpg" alt="图书封面"/>
+							</a>
+							<div class="caption">
+								<h4>疯狂Android讲义</h4>
+								<p>李刚 编著</p>
+								<p>电子工业出版社</p>
+								<p>108.00</p>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-sm-6">
+							<a href=""> <img src="img/ajax.jpg" alt="图书封面"/>
+							</a>
+							<div class="caption">
+								<h4>疯狂Ajax开发</h4>
+								<p>李刚 编著</p>
+								<p>电子工业出版社</p>
+								<p>79.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
